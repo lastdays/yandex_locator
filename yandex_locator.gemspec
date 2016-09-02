@@ -25,6 +25,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency 'pry-rails'
   spec.add_development_dependency 'codeclimate-test-reporter'
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
 
   spec.add_runtime_dependency 'faraday', '~> 0.9.2'
 
